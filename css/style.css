@@ -16,6 +16,7 @@ img{
 /* proprietà container */
 .container{
     margin: 0 auto;
+    width: 900px;
     /* font-family:; */
 }
 /* proprietà header */
@@ -28,4 +29,29 @@ header .title-header{
 }
 .text{
     font-size: small;
+}
+
+/* proprietà cards */
+.section-card{
+    width: 250px;
+    margin-top: 40px;
+}
+.card{
+    background-color: black;
+}
+.card .image-card{
+    width: 80px;
+    float: left;
+    margin-right: 10px;
+}
+.description-card{
+    color: white;
+    padding: 9px;
+}
+.role, address{
+    font-size: small;
+    margin: 4px;
+}
+address{
+    color: #32aaff;
 }
