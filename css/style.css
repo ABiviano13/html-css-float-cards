@@ -1,0 +1,31 @@
+/* regole reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+img{
+    max-width: 100%;
+}
+
+/* proprietà container */
+.container{
+    margin: 0 auto;
+    /* font-family:; */
+}
+/* proprietà header */
+header{
+    text-align: center;
+}
+header .title-header{
+    color: #e53870;
+    padding: 30px;
+}
+.text{
+    font-size: small;
+}
