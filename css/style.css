@@ -10,7 +10,7 @@
     display: table;
     clear: both;
 }
-img{
+.image-card{
     max-width: 100%;
 }
 
@@ -19,11 +19,10 @@ img{
     margin: 0 auto;
     width: 900px;
 }
-/* proprietà header */
-header{
+.intro{
     text-align: center;
 }
-header .title-header{
+.container .title{
     color: #e53870;
     padding: 30px;
 }
